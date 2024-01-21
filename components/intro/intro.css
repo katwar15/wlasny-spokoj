@@ -1,0 +1,117 @@
+.intro {
+  max-width: 55rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  scroll-margin-top: 8em;
+}
+
+.iliaImg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 127px;
+  border: 2px solid #f2ede7;
+}
+
+.hIntro {
+  color: #176560;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67px; /* 186.493% */
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+}
+
+.h2Intro {
+  margin-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1rem;
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 250% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.buttonContact {
+  display: flex;
+  width: 30%;
+  border-radius: 50px;
+  background: #176560;
+  text-decoration: none;
+  color: rgba(242, 237, 231, 1);
+  display: flex;
+  padding: 1rem 0.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10.597px;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.buttonContact:hover {
+  filter: drop-shadow(0px 0px 10px #69a78e);
+  text-shadow: 0px 0px 7.185px rgba(242, 237, 231, 0.7);
+}
+
+.buttonInstagram {
+  width: 60px;
+  height: 60px;
+  background-color: #69a78e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.buttonLinkedin {
+  width: 60px;
+  height: 60px;
+  background-color: #69a78e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.ikona {
+  transition: 0.5s;
+}
+
+.buttonInstagram:hover,
+.buttonLinkedin:hover {
+  filter: drop-shadow(0px 0px 5.925px #69a78e);
+}
+
+.ikona:hover {
+  filter: drop-shadow(0px 0px 5.925px rgba(242, 237, 231, 0.7));
+}

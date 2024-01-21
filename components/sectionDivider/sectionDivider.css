@@ -1,0 +1,9 @@
+.divider {
+  background-color: #176560;
+  height: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 0.25rem;
+  border-radius: 9999px;
+  display: block;
+}

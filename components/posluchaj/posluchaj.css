@@ -1,0 +1,82 @@
+.posluchajSection {
+  max-width: 50rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  scroll-margin-top: 8em;
+}
+.posluchajDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+
+.posluchajDivDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.posluchajH2 {
+  color: #176560;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67px; /* 186.493% */
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  max-height: 300px;
+}
+
+.posluchajH3 {
+  color: #333;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.posluchajButton {
+  display: flex;
+  width: 50%;
+  border-radius: 50px;
+  background: #176560;
+  text-decoration: none;
+  color: rgba(242, 237, 231, 1);
+  display: flex;
+  padding: 1rem 0.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10.597px;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.posluchajButton:hover {
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.7));
+  text-shadow: 0px 0px 7.185px rgba(242, 237, 231, 0.7);
+}
+
+.podcastImg {
+  border-radius: 25px;
+  border: 3px solid;
+  background: linear-gradient(#e4bcb4, #edddd6) padding-box,
+    linear-gradient(to right, #e4bcb4, #edddd6) border-box;
+}

@@ -1,0 +1,105 @@
+.kontaktSection {
+  max-width: 50rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: 8em;
+}
+
+.kontaktH2 {
+  color: #176560;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67px; /* 186.493% */
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  max-height: 300px;
+}
+
+.kontaktH3 {
+  color: #333;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 4rem;
+  margin-top: 0;
+  width: 80%;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input {
+  height: 3.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  border: solid 2px #176560;
+  color: #333;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3px;
+  padding: 0.5rem 1rem;
+}
+textarea {
+  height: 10rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  border: solid 2px #176560;
+  color: #333;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3px;
+  padding: 0.5rem 1rem;
+}
+
+.kontaktButton {
+  display: flex;
+  width: 35%;
+  border-radius: 50px;
+  border-color: #69a78e;
+  background: #69a78e;
+  text-decoration: none;
+  color: rgba(242, 237, 231, 1);
+  display: flex;
+  padding: 1rem 0.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10.597px;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border-style: none;
+  margin-top: 2rem;
+}
+
+.kontaktButton:hover {
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.7));
+  text-shadow: 0px 0px 7.185px rgba(242, 237, 231, 0.7);
+}

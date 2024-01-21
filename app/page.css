@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+}
